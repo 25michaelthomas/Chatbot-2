@@ -1,0 +1,59 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "hi",
+        "good day",
+        "greetings",
+        "what's up?",
+        "how's it going?"
+      ],
+      "responses": ["Hello!", "Hey!", "What can I do for you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "see you later",
+        "goodbye",
+        "I am leaving",
+        "have a good day",
+        "bye",
+        "see ya"
+      ],
+      "responses": [
+        "Sad to see you go :(",
+        "Okay, talk to you later",
+        "Goodbye!"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old",
+        "how old is Michael",
+        "what is your age",
+        "how old are you",
+        "age?"
+      ],
+      "responses": ["My owner Michael is 25 years old!"]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should I call you",
+        "whats your name",
+        "who are you?",
+        "Can you tell me your name?"
+      ],
+      "responses": [
+        "You can call me Michael bot!",
+        "Michael bot! the assistant to Michael!"
+      ]
+    }
+  ]
+}
